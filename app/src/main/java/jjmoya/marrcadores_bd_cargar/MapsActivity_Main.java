@@ -44,11 +44,13 @@ import java.util.List;
 
 public class MapsActivity_Main extends FragmentActivity implements OnMapReadyCallback {
 
+    //comentado de las lineas
     private GoogleMap mMap;
     private Button bt_mostrar;
     private Button bt_ocultar;
     private ProgressDialog pDialog = null; // barra de progreso (mostrada mientras se conecta a la BD)
 
+    //comentado de la lineas
     private List lmarcadores;
     private List lborrarmarcadores;
 
